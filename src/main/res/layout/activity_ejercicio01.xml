@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    tools:context=".Ejercicio01Activity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:rowCount="5"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9">
+
+        <!-- Los botones numéricos usarán el mismo estilo -->
+        <Button
+            android:id="@+id/button7"
+            style="@style/CustomButtonStyle"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/CustomButtonStyle"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/CustomButtonStyle"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/CustomButtonStyle"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/CustomButtonStyle"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/CustomButtonStyle"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/CustomButtonStyle"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/CustomButtonStyle"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/CustomButtonStyle"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/buttonI"
+            style="@style/CustomButtonStyle"
+            android:layout_width="0dp"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill_horizontal"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/buttonLeft"
+            style="@style/CustomButtonStyle"
+            android:text="←" />
+
+        <Button
+            android:id="@+id/buttonI2"
+            style="@style/CustomButtonStyle"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/buttonRight"
+            style="@style/CustomButtonStyle"
+            android:text="→" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
